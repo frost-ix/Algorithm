@@ -18,7 +18,7 @@ void printLsNd(LsNd* Node, LsNd *Active_Link)
 	{
 		for (Active_Link = Node; Active_Link->Link == NULL; Active_Link = Active_Link->Link)
 		{
-			std::cout << Active_Link->node_data << " -> ";
+			std::cout << Active_Link->node_daåta << " -> ";
 		}
 		std::cout << "END < NULL >" << std::endl;
 	}
@@ -47,9 +47,9 @@ LsNd* createNode(element data)
 // Third : If node go to last
 // Fourth : Other Case <Insert inside ListNode>
 // 
+// Head == Node's Head
 // Node == Import Node
 // Active == Past pointer
-// dava_V == data_value == Node data as same as input data
 void inputNode(const LsNd* Head, LsNd* Node, LsNd* Active)
 {
 	if (Head == NULL)
