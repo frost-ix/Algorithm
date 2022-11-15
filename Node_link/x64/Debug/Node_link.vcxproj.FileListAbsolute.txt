@@ -1,2 +1,0 @@
-D:\Study file\Algorithm\Node_link\x64\Debug\Node_link.exe
-D:\Study file\Algorithm\C++\Node_link\x64\Debug\Node_link.exe
